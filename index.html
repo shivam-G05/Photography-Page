@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <!-- Correct link: loads the entire Material Symbols font -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* (Optional) styling to make it look better */
+    .material-symbols-outlined {
+      font-size: 36px;
+      cursor: pointer;
+    }
+  </style>
+  <style>
+  /* Keep your existing styling */
+  .material-symbols-outlined {
+    font-size: 36px;
+    cursor: pointer;
+    vertical-align: middle; /* aligns icons nicely with text */
+  }
+
+  /* Make menu links match icon size */
+  .menu ul li a {
+    font-size: 24px; /* adjust to match icon size visually */
+    vertical-align: middle; /* aligns baseline with icon */
+    text-decoration: none;
+    color: #090000; /* adjust if needed */
+    margin-left: 8px; /* spacing between icon and text */
+  }
+
+  /* Make social media icons larger */
+  .social_media i {
+    font-size: 28px; /* bigger size */
+    color: #1DA1F2; /* Twitter blue as example */
+    margin: 0 8px;
+    transition: transform 0.2s ease;
+  }
+
+  /* Optional hover effect */
+  .social_media i:hover {
+    transform: scale(1.2);
+    color: #0A66C2; /* LinkedIn blue as example */
+  }
+</style>
+
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+<body>
+  <div class="main_container">
+    <input type="checkbox" id="check_box" style="display: none;">
+    <div class="button_one">
+      <label for="check_box"><span class="material-symbols-outlined">dehaze</span></label>
+    </div>
+
+
+    <div class="side_bar">
+      <div class="logo">
+        <a  class="logo_text"href="#">PHOTOGRAPHY CLUB</a>
+        <label for="check_box">
+          <span class="material-symbols-outlined" style="font-size: 25px;">close</span>
+        </label>
+      </div>
+
+
+      
+
+      <div class="menu">
+        <ul>
+        <li>
+          <span class="material-symbols-outlined">filter</span>
+          <a href="#">Gallery</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">arrow_outward</span>
+          <a href="#">Shortcuts</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">wall_art</span>
+          <a href="#">Exhibits</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+calendar_month
+</span>
+<a href="#">events</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+add_business
+</span>
+<a href="#">Store</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+call
+</span>
+<a href="#">Call</a>
+        </li>
+        <li>
+          <span class="material-symbols-outlined">
+chat
+</span>
+<a href="#">Feedback</a>
+        </li>
+        <li class="social_media" style="list-style-type:none;">
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        </ul>
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
